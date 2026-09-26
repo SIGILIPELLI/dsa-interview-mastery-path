@@ -1,0 +1,109 @@
+site_name: DSA & Coding Interviews Mastery Path
+site_description: A structured, module-wise data structures, algorithms and coding-interview program — patterns, tested Python solutions, and interview strategy.
+site_url: https://sigilipelli.github.io/dsa-interview-mastery-path/
+repo_url: https://github.com/sigilipelli/dsa-interview-mastery-path
+repo_name: dsa-interview-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Entry":
+      - Overview: level-1/index.md
+      - "01 · Big-O & Complexity Analysis": level-1/01-big-o-complexity.md
+      - "02 · Arrays & Strings": level-1/02-arrays-strings.md
+      - "03 · Hash Maps & Sets": level-1/03-hash-maps-sets.md
+      - "04 · Two Pointers": level-1/04-two-pointers.md
+      - "05 · Sliding Window": level-1/05-sliding-window.md
+      - "06 · Stacks & Queues": level-1/06-stacks-queues.md
+      - "07 · Linked Lists": level-1/07-linked-lists.md
+      - "08 · Recursion Fundamentals": level-1/08-recursion.md
+      - "09 · Sorting & Binary Search": level-1/09-sorting-binary-search.md
+      - "10 · Project — Timed Practice Set 1": level-1/10-project-timed-practice-set.md
+  - "Level 2 · Intermediate":
+      - Overview: level-2/index.md
+      - "01 · Binary Trees & Traversals": level-2/01-trees-traversals.md
+      - "02 · Binary Search Trees": level-2/02-binary-search-trees.md
+      - "03 · Heaps & Priority Queues": level-2/03-heaps-priority-queues.md
+      - "04 · Graphs: BFS & DFS": level-2/04-graphs-bfs-dfs.md
+      - "05 · Backtracking": level-2/05-backtracking.md
+      - "06 · Intro to Dynamic Programming": level-2/06-intro-dynamic-programming.md
+      - "07 · Prefix Sums & Intervals": level-2/07-prefix-sums-intervals.md
+      - "08 · Greedy Algorithms": level-2/08-greedy.md
+      - "09 · Tries": level-2/09-tries.md
+      - "10 · Project — Timed Practice Set 2": level-2/10-project-practice-set-2.md
+  - "Level 3 · Advanced":
+      - Overview: level-3/index.md
+      - "01 · Advanced Dynamic Programming": level-3/01-advanced-dp.md
+      - "02 · Shortest Paths: Dijkstra & Bellman-Ford": level-3/02-shortest-paths.md
+      - "03 · Topological Sort": level-3/03-topological-sort.md
+      - "04 · Union-Find (Disjoint Set Union)": level-3/04-union-find.md
+      - "05 · Monotonic Stack & Queue": level-3/05-monotonic-stack-queue.md
+      - "06 · Bit Manipulation": level-3/06-bit-manipulation.md
+      - "07 · Segment Trees & Fenwick Trees": level-3/07-segment-fenwick-trees.md
+      - "08 · String Algorithms": level-3/08-string-algorithms.md
+      - "09 · Minimum Spanning Trees": level-3/09-minimum-spanning-trees.md
+      - "10 · Project — Hard Problem Set": level-3/10-project-hard-problem-set.md
+  - "Level 4 · Master":
+      - Overview: level-4/index.md
+      - "01 · The Interview Communication Framework": level-4/01-interview-framework.md
+      - "02 · Behavioral Interview Prep": level-4/02-behavioral-prep.md
+      - "03 · Mock Interview Walkthroughs": level-4/03-mock-walkthroughs.md
+      - "04 · Online Assessment Tactics": level-4/04-online-assessments.md
+      - "05 · Problem Sets by Interview Style": level-4/05-problem-sets-by-style.md
+      - "06 · System-Design-Lite in Coding Rounds": level-4/06-system-design-lite.md
+      - "07 · Testing & Debugging Live": level-4/07-testing-debugging-live.md
+      - "08 · Offers & Negotiation Basics": level-4/08-offers-negotiation.md
+      - "09 · Study Plans: 4, 8 and 12 Weeks": level-4/09-study-plans.md
+      - "10 · Capstone — Full Mock Interview": level-4/10-capstone-mock-interview.md
