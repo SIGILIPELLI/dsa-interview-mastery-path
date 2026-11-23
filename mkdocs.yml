@@ -75,8 +75,8 @@ not_in_nav: |
 
 nav:
   - Home: index.md
-  - "💼 Interview Questions": interview-questions.md
-  - "📋 Cheat Sheet": cheat-sheet.md
+  - Interview Questions: interview-questions.md
+  - Cheat Sheet: cheat-sheet.md
   - "Level 1 · Entry":
       - Overview: level-1/index.md
       - "01 · Big-O & Complexity Analysis": level-1/01-big-o-complexity.md
@@ -125,5 +125,5 @@ nav:
       - "08 · Offers & Negotiation Basics": level-4/08-offers-negotiation.md
       - "09 · Study Plans: 4, 8 and 12 Weeks": level-4/09-study-plans.md
       - "10 · Capstone — Full Mock Interview": level-4/10-capstone-mock-interview.md
-  - "🎯 Final Quiz": quiz.md
+  - Final Quiz: quiz.md
 
