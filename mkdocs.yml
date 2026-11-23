@@ -69,12 +69,14 @@ extra:
     - name: "System Design"
       url: https://learnmasterypath.com/system-design-mastery-path/
 
+not_in_nav: |
+  privacy.md
+  license.md
+
 nav:
   - Home: index.md
   - "💼 Interview Questions": interview-questions.md
   - "📋 Cheat Sheet": cheat-sheet.md
-  - Privacy Policy: privacy.md
-  - License: license.md
   - "Level 1 · Entry":
       - Overview: level-1/index.md
       - "01 · Big-O & Complexity Analysis": level-1/01-big-o-complexity.md
