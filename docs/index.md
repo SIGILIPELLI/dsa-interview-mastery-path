@@ -1,6 +1,6 @@
 ---
 title: "Free DSA & Coding Interview Course: Patterns, Python Solutions, Strategy"
-description: "Free data structures, algorithms and coding interview course — 40 lessons with tested Python solutions, complexity proofs, and full mock interviews."
+description: "Free data structures, algorithms and coding interview course — 36 lessons and 4 projects with tested Python solutions, complexity proofs, and full mock interviews."
 ---
 
 # DSA & Coding Interviews Mastery Path
